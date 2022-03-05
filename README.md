@@ -1,6 +1,8 @@
-# w-spam
+# w-spam 
+
 Un repositorio dónde crea y escribe automáticamente wa.me muy útil para hacer spam de alguna red social 
-instalacion:
+ 
+# instalacion:
 apt install git 
 git clone https://github.com/Dylan23145/w-spam 
 apt install util-linux 
