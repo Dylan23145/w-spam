@@ -63,17 +63,16 @@ chile
 
 setterm -foreground green
 clear
-echo"
-
+echo'
  __      ________ ___ _ __   __ _ _ __ ___  
- \ \ /\ / /______/ __| '_ \ / _` | '_ ` _ \ 
+ \ \ /\ / /______/ __| '_ \ / _`   '_ ` _ \ 
   \ V  V /       \__ \ |_) | (_| | | | | | |
    \_/\_/        |___/ .__/ \__,_|_| |_| |_|
                      | |                    
                      |_|                    
 
 wa.me/573113160879
-"
+'
 setterm -foreground blue
 echo " Introduce el mensaje que quieres mandar // remplaza los espacios por un  +"
 read mensaje
