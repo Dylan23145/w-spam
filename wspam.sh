@@ -64,16 +64,12 @@ chile
 setterm -foreground green
 echo""
 echo"
-
-
----------------------------------------------------------------------------
- ____    __    ____              _______..______        ___      .___  ___.
- \   \  /  \  /   /             /       ||   _  \      /   \     |   \/   |
-  \   \/    \/   /   ______    |    (----|  |_)  |    /  ^  \    |  \  /  |
-   \            /   |______|    \   \    |   ___/    /  /_\  \   |  |\/|  |
-    \    /\    /            .----)   |   |  |       /  _____  \  |  |  |  |
-     \__/  \__/             |_______/    | _|      /__/     \__\ |__|  |__|
----------------------------------------------------------------------------
+__  _  __           _________________    _____
+\ \/ \/ /  ______  /  ___/\____ \__  \  /     \ 
+ \     /  /_____/  \___ \ |  |_> > __ \|  Y Y  \
+  \/\_/           /____  >|   __(____  /__|_|  /
+                       \/ |__|       \/      \/
+wa.me/573113160879
 "
 setterm -foreground blue
 echo " Introduce el mensaje que quieres mandar // remplaza los espacios por un  +"
@@ -83,11 +79,9 @@ by dak7=mia
 
 (1)egipto      (4)peru       (7)brazil         
 (2)rusia       (5)argentina  (8)republica domi
-(3)colombia    (6)españa     (9)chile 
-                             (c)hablar con el creador 
-"
+(3)colombia    (6)españa     (9)chile "
 while true; do
-    read -p "Seleccione una opción de 1 a 6: " op
+    read -p "Seleccione una opción de 1 a 9: " op
     case $op in
         [1]* ) egipto; break;;
         [2]* ) rusia; break;;
@@ -98,7 +92,6 @@ while true; do
         [7]* ) brazil; break;;
         [8]* ) repdo; break;;
         [9]* ) chile; break;;
-        [c]* ) termux-open wa.me/573113160879; break;;
         * ) echo "Opcion incorrecta. Seleccione una Opción de 1 a 9: ";;
     esac
 done
