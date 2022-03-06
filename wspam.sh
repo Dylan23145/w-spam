@@ -84,7 +84,7 @@ by dak7=mia
 (1)egipto      (4)peru       (7)brazil         
 (2)rusia       (5)argentina  (8)republica domi
 (3)colombia    (6)españa     (9)chile 
-                             (10)hablar con el creador 
+                             (c)hablar con el creador 
 "
 while true; do
     read -p "Seleccione una opción de 1 a 6: " op
@@ -98,7 +98,7 @@ while true; do
         [7]* ) brazil; break;;
         [8]* ) repdo; break;;
         [9]* ) chile; break;;
-        [9]* ) termux-open wa.me/573113160879; break;;
+        [c]* ) termux-open wa.me/573113160879; break;;
         * ) echo "Opcion incorrecta. Seleccione una Opción de 1 a 9: ";;
     esac
 done
