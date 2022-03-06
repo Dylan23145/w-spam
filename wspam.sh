@@ -62,7 +62,7 @@ chile
 
 
 setterm -foreground green
-echo""
+clear
 echo"
 
  __      ________ ___ _ __   __ _ _ __ ___  
