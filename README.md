@@ -1,6 +1,6 @@
 # w-spam 
 
-Un repositorio dónde crea y escribe automáticamente wa.me muy útil para hacer spam de alguna red social 
+Un repositorio dónde crea y escribe automáticamente wa.me muy útil para hacer spam
 
 # instalación
 
@@ -17,3 +17,6 @@ luego selecciónas la opcion que quieras y listo
 ![image](https://user-images.githubusercontent.com/74885040/156933995-593d7cef-ef8f-47ef-9506-fa61c7ce4187.png)
 
 ![image](https://user-images.githubusercontent.com/74885040/156934015-b1794c41-6722-4cc4-af2b-0fc82bda5083.png)
+
+# Aclaración
+El sobre uso de esta herramienta puede ocasionar que el número que la use sea baneado de WhatsApp
