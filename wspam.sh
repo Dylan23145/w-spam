@@ -21,7 +21,12 @@ termux-open https://wa.me/$numero?text=$mensaje
 sleep 3
 colombia
 }
-peru(){                                                                                                                                      numero=$(shuf -i 51902000000-51902999999 -n 1)                                                                                               echo "$numero"                                                                                                                               termux-open https://wa.me/$numero?text=$mensaje                                                                                              sleep 3                                                                                                                                      peru
+peru(){
+numero=$(shuf -i 51902000000-51902999999 -n 1)
+echo "$numero"
+termux-open https://wa.me/$numero?text=$mensaje
+sleep 3
+peru
 }
 argentina(){
 numero=$(shuf -i 5491100000000-5491199999999 -n 1)
