@@ -50,7 +50,7 @@ sleep 3
 brazil
 }
 repdo(){
-numero=$(shuf -i 18290000000-18299999999 -n 1)
+numero=$(shuf -i 50493000000-50493999999 -n 1)
 echo "$numero"
 termux-open https://wa.me/$numero?text=$mensaje
 sleep 3
@@ -85,7 +85,7 @@ echo "
 by dak7=mia
 
 (1)egipto      (4)peru       (7)brazil         
-(2)rusia       (5)argentina  (8)republica domi
+(2)rusia       (5)argentina  (8)honduras
 (3)colombia    (6)españa     (9)chile "
 while true; do
     read -p "Seleccione una opción de 1 a 9: " op
